@@ -1,5 +1,5 @@
-# Hybrid-Approach-for-Early-stage-detection-of-autism
-🧠 Early Detection of Autism Spectrum Disorder (ML-Based Tool)
+#🧠 Early Detection of Autism Spectrum Disorder (ML-Based Tool)
+
 📌 Project Overview
 
 This project focuses on the early-stage detection of Autism Spectrum Disorder (ASD) using machine learning techniques. It provides an end-to-end Python-based pipeline that includes data preprocessing, feature extraction, model training, evaluation, and real-time prediction through a Streamlit web application.

@@ -63,6 +63,8 @@ Failure Analysis
         ↓
 Streamlit Deployment
 
+text'''
+---
 ## 📊 Model Evaluation Metrics
 
 The models were evaluated using:

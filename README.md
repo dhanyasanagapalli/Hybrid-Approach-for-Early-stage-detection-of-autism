@@ -1,4 +1,5 @@
-#🧠 Early Detection of Autism Spectrum Disorder (ML-Based Tool)
+#Hybrid-Approach-for-Early-stage-detection-of-autism
+🧠 Early Detection of Autism Spectrum Disorder (ML-Based Tool)
 
 📌 Project Overview
 

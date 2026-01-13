@@ -62,3 +62,57 @@ Model Evaluation
 Failure Analysis
         ↓
 Streamlit Deployment
+📊 Model Evaluation Metrics
+
+The models were evaluated using:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-Score
+
+Confusion Matrix
+
+A comparative analysis was performed to identify the best-performing model.
+
+🖥️ Streamlit Application
+
+The Streamlit interface allows users to:
+
+Enter input features interactively
+
+Get real-time ASD prediction results
+
+Visualize model outputs
+
+▶️ Run the App
+streamlit run app.py
+
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/dhanyasanagapalli/Hybrid-Approach-for-Early-stage-detection-of-autism.git
+cd Hybrid-Approach-for-Early-stage-detection-of-autism
+
+2️⃣ Install Dependencies
+pip install -r requirements.txt
+
+3️⃣ Run the Application
+streamlit run app.py
+
+📂 Project Repository
+
+🔗 GitHub Link:
+https://github.com/dhanyasanagapalli/Hybrid-Approach-for-Early-stage-detection-of-autism
+
+⚠️ Disclaimer
+
+🚨 This project is intended only for research and educational purposes.
+It is not a medical diagnostic system and should not replace professional clinical evaluation.
+
+👩‍💻 Author
+
+Dhanya Sanagapalli
+🔗 GitHub: https://github.com/dhanyasanagapalli

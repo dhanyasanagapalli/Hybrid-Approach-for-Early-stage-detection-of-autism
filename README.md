@@ -1,163 +1,64 @@
-#Hybrid-Approach-for-Early-stage-detection-of-autism
-🧠 Early Detection of Autism Spectrum Disorder (ML-Based Tool)
+<!-- PROJECT TITLE -->
+<h1 align="center">🧠 Early Detection of Autism Spectrum Disorder</h1>
+<h3 align="center">Machine Learning Based Screening Tool</h3>
 
-📌 Project Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python"/>
+  <img src="https://img.shields.io/badge/Machine%20Learning-SVM%20%7C%20RF%20%7C%20XGBoost%20%7C%20CatBoost-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit"/>
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
+</p>
 
-This project focuses on the early-stage detection of Autism Spectrum Disorder (ASD) using machine learning techniques. It provides an end-to-end Python-based pipeline that includes data preprocessing, feature extraction, model training, evaluation, and real-time prediction through a Streamlit web application.
+---
 
-The goal is to assist in early screening by comparing multiple ML models and identifying the most reliable approach.
+## 📌 Project Overview
+This project focuses on the **early-stage detection of Autism Spectrum Disorder (ASD)** using **machine learning techniques**.  
+It provides a **complete end-to-end Python-based pipeline** including data preprocessing, feature extraction, model training, evaluation, and **real-time prediction** through a **Streamlit web application**.
 
-🚀 Key Features
+The system compares multiple ML models to determine the most effective approach for ASD screening.
 
-End-to-end machine learning pipeline
+---
 
-Automated model comparison
+## 🚀 Key Features
+✅ End-to-end ML pipeline  
+✅ Automated multi-model experimentation  
+✅ Comparative model evaluation  
+✅ Real-time inference using Streamlit  
+✅ Failure analysis and performance debugging  
 
-Multiple ML algorithms implemented
+---
 
-Real-time prediction using Streamlit
+## 🛠️ Tech Stack
+### 🔹 Programming Language
+- 🐍 Python
 
-Detailed model evaluation and failure analysis
+### 🔹 Machine Learning Models
+- Support Vector Machine (SVM)
+- Random Forest
+- XGBoost
+- CatBoost
 
-Easy-to-use internal web interface
+### 🔹 Libraries & Tools
+- NumPy  
+- Pandas  
+- Scikit-learn  
+- XGBoost  
+- CatBoost  
+- Matplotlib / Seaborn  
+- Streamlit  
 
-🛠️ Technologies Used
+---
 
-Programming Language: Python
-
-Machine Learning Models:
-
-Support Vector Machine (SVM)
-
-Random Forest
-
-XGBoost
-
-CatBoost
-
-Libraries & Tools:
-
-NumPy
-
-Pandas
-
-Scikit-learn
-
-XGBoost
-
-CatBoost
-
-Matplotlib / Seaborn
-
-Streamlit
-
-📂 Project Structure
-Hybrid-Approach-for-Early-stage-detection-of-autism/
-│
-├── data/                   # Dataset files
-├── notebooks/              # Jupyter notebooks for experiments
-├── models/                 # Trained models
-├── app.py                  # Streamlit application
-├── requirements.txt        # Project dependencies
-└── README.md               # Project documentation
-
-⚙️ Workflow
-
-Data Collection & Preprocessing
-
-Handling missing values
-
-Encoding categorical features
-
-Feature scaling
-
+## 🔄 Project Workflow
+```text
+Data Preprocessing
+        ↓
 Feature Extraction
-
-Selection of relevant behavioral and demographic features
-
+        ↓
 Model Training
-
-Training SVM, Random Forest, XGBoost, and CatBoost models
-
+        ↓
 Model Evaluation
-
-Accuracy, Precision, Recall, F1-score
-
-Confusion Matrix analysis
-
+        ↓
 Failure Analysis
-
-Analysis of misclassified samples
-
-Model performance debugging
-
-Deployment
-
-Streamlit-based real-time prediction interface
-
-📊 Model Evaluation
-
-The models were evaluated using:
-
-Accuracy
-
-Precision
-
-Recall
-
-F1-Score
-
-Confusion Matrix
-
-A comparative analysis was performed to identify the best-performing model for ASD prediction.
-
-🖥️ Streamlit Application
-
-The Streamlit app allows users to:
-
-Enter input features interactively
-
-Get real-time ASD prediction
-
-Visualize model output and confidence
-
-▶️ Run the App
-streamlit run app.py
-
-📦 Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/dhanyasanagapalli/Hybrid-Approach-for-Early-stage-detection-of-autism.git
-cd Hybrid-Approach-for-Early-stage-detection-of-autism
-
-2️⃣ Install Dependencies
-pip install -r requirements.txt
-
-3️⃣ Run the Project
-
-For training & evaluation: use notebooks or scripts
-
-For UI: run the Streamlit app
-
-🎯 Use Cases
-
-Early ASD screening support
-
-Academic and research purposes
-
-ML model comparison studies
-
-Healthcare decision-support systems (non-diagnostic)
-
-⚠️ Disclaimer
-
-This tool is intended for research and educational purposes only.
-It is not a medical diagnostic system and should not replace professional clinical evaluation.
-
-👩‍💻 Author
-
-Dhanya Sanagapalli
-🔗 GitHub: https://github.com/dhanyasanagapalli
-
-⭐ If you like this project
-
-Don’t forget to star ⭐ the repository and share feedback!
+        ↓
+Streamlit Deployment
